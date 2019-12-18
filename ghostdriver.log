@@ -1,0 +1,36 @@
+[INFO  - 2019-11-04T08:52:07.578Z] GhostDriver - Main - running on port 58408
+[INFO  - 2019-11-04T08:52:08.014Z] Session [61e46c00-fee0-11e9-b22f-c3c9af9d514d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-11-04T08:52:08.015Z] Session [61e46c00-fee0-11e9-b22f-c3c9af9d514d] - page.customHeaders:  - {}
+[INFO  - 2019-11-04T08:52:08.016Z] Session [61e46c00-fee0-11e9-b22f-c3c9af9d514d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-11-04T08:52:08.016Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 61e46c00-fee0-11e9-b22f-c3c9af9d514d
+[ERROR - 2019-11-04T08:52:09.989Z] Session [61e46c00-fee0-11e9-b22f-c3c9af9d514d] - page.onError - msg: ReferenceError: Can't find variable: ue
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-04T08:52:09.990Z] Session [61e46c00-fee0-11e9-b22f-c3c9af9d514d] - page.onError - stack:
+  m (https://images-na.ssl-images-amazon.com/images/I/21PWs2LLIGL._RC%7C118Say7HIZL.js,21E2aIDj6DL.js,31qUdoxPE8L.js,4123BTTtUrL.js,31bEXnVglKL.js,31nGeerMTdL.js,41c3uHjPKBL.js,21NDIsf0a1L.js,015TRQC5i+L.js,61k5LE-riEL.js,01lcH4zcTaL.js,01OtvpwikQL.js,51ZLWbLKW6L.js,01qwoVEkKlL.js,01g2etah0NL.js,21b+wrKJalL.js,21qOGqjcM7L.js,11wTwl+500L.js,61PCSQyKMtL.js,11840WGx9YL.js,01YivelYW5L.js,016QFWAAdML.js,51aD1HRmMqL.js,11Gx+6S5O-L.js,41pmwo8mKML.js,41FXCYfSyrL.js,41dXzi-62wL.js,31ZS5TQVWDL.js,51gjsv138dL.js,01IQoRXvpnL.js,011bX2ciJbL.js,21222B+rAzL.js,01gp3oqpb5L.js,31SVhUHz1bL.js,21nsfrjkZaL.js,01u8ChFWgdL.js,011kwg0OTQL.js,01jLpHmb92L.js,014kCoIHgIL.js,01rd3UY3Z8L.js,01hkseOXj6L.js,01Fbdoi6CAL.js,01mb5sKwNML.js,41Qw2ofMr2L.js,015PypySMyL.js,01IC-gBKyYL.js,51odjOlHNYL.js,21rYUjMk16L.js,01OI0RzpxfL.js_.js?AUIClients/USHardlinesDetailPageMetaAssetVariable_TURBO_DESKTOP#desktop.us.230790-T1.234887-C.239853-T1.222666-T1.215485-T1.234606-T1.210547-T1.231673-T1.153662-T1.103061-T1.236087-T1.234665-T1.150150-T1.200616-T1.184888-T1.162909-T1.212213-T1.207826-T1.190465-T1.190123-T1.144201-T1.221009-T1.169053-T2.184361-T1.126331-T1.188213-T1.179789-T1.109378-T1.147957-T1.154031-T3.198898-C.200963-T1.224722-T1.169593-T1.142088-C.223533-T1.187555-T1:911)
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/21PWs2LLIGL._RC%7C118Say7HIZL.js,21E2aIDj6DL.js,31qUdoxPE8L.js,4123BTTtUrL.js,31bEXnVglKL.js,31nGeerMTdL.js,41c3uHjPKBL.js,21NDIsf0a1L.js,015TRQC5i+L.js,61k5LE-riEL.js,01lcH4zcTaL.js,01OtvpwikQL.js,51ZLWbLKW6L.js,01qwoVEkKlL.js,01g2etah0NL.js,21b+wrKJalL.js,21qOGqjcM7L.js,11wTwl+500L.js,61PCSQyKMtL.js,11840WGx9YL.js,01YivelYW5L.js,016QFWAAdML.js,51aD1HRmMqL.js,11Gx+6S5O-L.js,41pmwo8mKML.js,41FXCYfSyrL.js,41dXzi-62wL.js,31ZS5TQVWDL.js,51gjsv138dL.js,01IQoRXvpnL.js,011bX2ciJbL.js,21222B+rAzL.js,01gp3oqpb5L.js,31SVhUHz1bL.js,21nsfrjkZaL.js,01u8ChFWgdL.js,011kwg0OTQL.js,01jLpHmb92L.js,014kCoIHgIL.js,01rd3UY3Z8L.js,01hkseOXj6L.js,01Fbdoi6CAL.js,01mb5sKwNML.js,41Qw2ofMr2L.js,015PypySMyL.js,01IC-gBKyYL.js,51odjOlHNYL.js,21rYUjMk16L.js,01OI0RzpxfL.js_.js?AUIClients/USHardlinesDetailPageMetaAssetVariable_TURBO_DESKTOP#desktop.us.230790-T1.234887-C.239853-T1.222666-T1.215485-T1.234606-T1.210547-T1.231673-T1.153662-T1.103061-T1.236087-T1.234665-T1.150150-T1.200616-T1.184888-T1.162909-T1.212213-T1.207826-T1.190465-T1.190123-T1.144201-T1.221009-T1.169053-T2.184361-T1.126331-T1.188213-T1.179789-T1.109378-T1.147957-T1.154031-T3.198898-C.200963-T1.224722-T1.169593-T1.142088-C.223533-T1.187555-T1:913)
+  n (https://www.amazon.com/LG-27UK850-W-Monitor-Connectivity-FreeSync/dp/B078GVTD9N:9)
+  (anonymous function) (https://www.amazon.com/LG-27UK850-W-Monitor-Connectivity-FreeSync/dp/B078GVTD9N:11)
+  U (https://www.amazon.com/LG-27UK850-W-Monitor-Connectivity-FreeSync/dp/B078GVTD9N:14)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-04T08:52:10.204Z] Session [61e46c00-fee0-11e9-b22f-c3c9af9d514d] - page.onError - msg: ReferenceError: Can't find variable: ue
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-04T08:52:10.204Z] Session [61e46c00-fee0-11e9-b22f-c3c9af9d514d] - page.onError - stack:
+  (anonymous function) (https://www.amazon.com/LG-27UK850-W-Monitor-Connectivity-FreeSync/dp/B078GVTD9N:21355)
+  n (https://www.amazon.com/LG-27UK850-W-Monitor-Connectivity-FreeSync/dp/B078GVTD9N:9)
+  (anonymous function) (https://www.amazon.com/LG-27UK850-W-Monitor-Connectivity-FreeSync/dp/B078GVTD9N:11)
+  U (https://www.amazon.com/LG-27UK850-W-Monitor-Connectivity-FreeSync/dp/B078GVTD9N:14)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-04T08:52:10.798Z] Session [61e46c00-fee0-11e9-b22f-c3c9af9d514d] - page.onError - msg: ReferenceError: Can't find variable: ue
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-11-04T08:52:10.799Z] Session [61e46c00-fee0-11e9-b22f-c3c9af9d514d] - page.onError - stack:
+  (anonymous function) (https://images-na.ssl-images-amazon.com/images/I/21PWs2LLIGL._RC%7C118Say7HIZL.js,21E2aIDj6DL.js,31qUdoxPE8L.js,4123BTTtUrL.js,31bEXnVglKL.js,31nGeerMTdL.js,41c3uHjPKBL.js,21NDIsf0a1L.js,015TRQC5i+L.js,61k5LE-riEL.js,01lcH4zcTaL.js,01OtvpwikQL.js,51ZLWbLKW6L.js,01qwoVEkKlL.js,01g2etah0NL.js,21b+wrKJalL.js,21qOGqjcM7L.js,11wTwl+500L.js,61PCSQyKMtL.js,11840WGx9YL.js,01YivelYW5L.js,016QFWAAdML.js,51aD1HRmMqL.js,11Gx+6S5O-L.js,41pmwo8mKML.js,41FXCYfSyrL.js,41dXzi-62wL.js,31ZS5TQVWDL.js,51gjsv138dL.js,01IQoRXvpnL.js,011bX2ciJbL.js,21222B+rAzL.js,01gp3oqpb5L.js,31SVhUHz1bL.js,21nsfrjkZaL.js,01u8ChFWgdL.js,011kwg0OTQL.js,01jLpHmb92L.js,014kCoIHgIL.js,01rd3UY3Z8L.js,01hkseOXj6L.js,01Fbdoi6CAL.js,01mb5sKwNML.js,41Qw2ofMr2L.js,015PypySMyL.js,01IC-gBKyYL.js,51odjOlHNYL.js,21rYUjMk16L.js,01OI0RzpxfL.js_.js?AUIClients/USHardlinesDetailPageMetaAssetVariable_TURBO_DESKTOP#desktop.us.230790-T1.234887-C.239853-T1.222666-T1.215485-T1.234606-T1.210547-T1.231673-T1.153662-T1.103061-T1.236087-T1.234665-T1.150150-T1.200616-T1.184888-T1.162909-T1.212213-T1.207826-T1.190465-T1.190123-T1.144201-T1.221009-T1.169053-T2.184361-T1.126331-T1.188213-T1.179789-T1.109378-T1.147957-T1.154031-T3.198898-C.200963-T1.224722-T1.169593-T1.142088-C.223533-T1.187555-T1:1068)
+  n (https://www.amazon.com/LG-27UK850-W-Monitor-Connectivity-FreeSync/dp/B078GVTD9N:9)
+  (anonymous function) (https://www.amazon.com/LG-27UK850-W-Monitor-Connectivity-FreeSync/dp/B078GVTD9N:11)
+  U (https://www.amazon.com/LG-27UK850-W-Monitor-Connectivity-FreeSync/dp/B078GVTD9N:14)
+
+  phantomjs://platform/console++.js:263 in error
