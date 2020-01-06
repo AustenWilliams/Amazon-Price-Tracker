@@ -11,18 +11,6 @@ Begginer Python 3 project that utilizes Tkinter and Selenium Webdriver to check 
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Development setup
-
-Will provide more to come..
-
-
-Installation instructions:
-
-```sh
-make install
-npm test
-```
-
 ## Contact
 
 Austen Williams  – Austen_Will@yahoo.com
